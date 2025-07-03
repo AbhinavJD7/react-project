@@ -11,17 +11,21 @@ function App() {
 
 
   const addValue = () => {
-    console.log("Clicked" , counter);
     //counter = counter + 1;
-    if(counter<=19)
+    if(counter<=19){
     setCounter(counter + 1)
+    console.log("Clicked" , counter);
+    }
+
   }
 
    const removeValue = () => {
-    console.log("Clicked" , counter);
     //counter = counter + 1;
-    if(counter>0)
+    if(counter>0){
     setCounter(counter - 1)
+    console.log("Clicked" , counter);
+    }
+
   }
 
   return (
